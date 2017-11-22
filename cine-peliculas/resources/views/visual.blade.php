@@ -11,6 +11,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </head>
 <body>
+	<nav class="nav nav-pills flex-column flex-sm-row">
+	  <a class="flex-sm-fill text-sm-center nav-link active" href="/create">Agregar</a>
+	  <a class="flex-sm-fill text-sm-center nav-link" href="/">ver</a>
+	</nav>
 	<table class="table">
 		<thead>
    	 		<tr>
