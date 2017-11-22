@@ -20,7 +20,7 @@ class PeliculaController extends Controller
     	$pelicula -> duracion = $request -> duracion;
     	$pelicula -> actor = $request -> actor;
     	$pelicula -> save();
-    	return redirect('ingresar')
+    	return redirect('/create');
 
     }
 }
