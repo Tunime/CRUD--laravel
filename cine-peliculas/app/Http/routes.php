@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/create','PeliculaController@vista');
+Route::post('/create','PeliculaController@create');
+Route::get('/','PeliculaController@inicio');
