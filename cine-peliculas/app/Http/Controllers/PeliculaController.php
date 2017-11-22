@@ -23,4 +23,8 @@ class PeliculaController extends Controller
     	return redirect('/create');
 
     }
+    public function read(){
+    	$pelicula=Pelicula::all();
+    	return view('visual',['peliculas'=>$pelicula]);
+    }
 }

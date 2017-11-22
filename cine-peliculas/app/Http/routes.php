@@ -13,4 +13,4 @@
 
 Route::get('/create','PeliculaController@vista');
 Route::post('/create','PeliculaController@create');
-Route::get('/','PeliculaController@inicio');
+Route::get('/','PeliculaController@read');
